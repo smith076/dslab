@@ -1,7 +1,7 @@
 //Design, develop and implement a program in c for following string operations
 //a)Read main string(STR),a pattern string (PAT), and a replace string (REP)
 //b)Perform pattern matching: Find and replace all occurences of PAT in STR with REP
-//if PAT exists in STR, in case PAT soesnt exist in STR, report suitable message
+//if PAT exists in STR, in case PAT doesnt exist in STR, report suitable message
 
 #include<stdio.h>
 //#include<>
