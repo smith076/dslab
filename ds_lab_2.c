@@ -8,7 +8,7 @@
 
 char ans[100],str[100],pat[100],rep[100];
 int flag,i,j,k,l,p;
-
+void matchpattern();
 void readstr(){                 //reads string
     printf("Enter the main string: \n");
     gets(str);
@@ -44,7 +44,7 @@ void matchpattern(){            //
             }
         }else  //mismatch
         {
-            ans[l]=str[i];
+            ans[l]=str[i];      //gives segmentation error, no such error in debian
             l++;
         }
     }   
