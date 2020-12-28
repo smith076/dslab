@@ -14,6 +14,7 @@ void main()
 	scanf("%d",&n);
 	toh(n,'s','t','d');
 	printf("Total Number of moves are:%d\n",(int)pow(2,n)-1);
+    getch();
 }
 void toh(int n,char s,char t,char d)
 {

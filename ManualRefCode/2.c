@@ -29,6 +29,7 @@ void main()
 	{
 		printf("The pattern is not found\n");
 	}
+    getch();
 }
 void patmat()
 {
